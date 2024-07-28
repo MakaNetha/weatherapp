@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="shecodes.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <div class="search">
+        <input type="text" id="cityInput" placeholder="Enter city name" />
+        <button onclick="getWeatherByCity()">Search</button>
+      </div>
+      <div class="location">
+        <button onclick="getWeatherByLocation()">
+          Get Weather by Location
+        </button>
+      </div>
+      <div id="weatherResult" class="result">
+        <!-- Weather data will be displayed here -->
+      </div>
+    </div>
+    <footer>
+      <p>
+        Hosted by Netlify Created by Nqobile H and open-sourced on
+        <a href="https://github.com/MakaNetha" target="_blank">GitHub</a>.
+      </p>
+    </footer>
+    <script src="shecodes.js"></script>
+  </body>
+</html>
